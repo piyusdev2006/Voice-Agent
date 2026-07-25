@@ -1,0 +1,17 @@
+{
+  "name": "jarvis-backend",
+  "version": "1.0.0",
+  "description": "JARVIS backend: receives voice transcripts, uses local Ollama for intent parsing (tool-calling), routes commands to connected device agents over WebSocket.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^2.7.0"
+  }
+}

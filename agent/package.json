@@ -1,0 +1,14 @@
+{
+  "name": "jarvis-pc-agent",
+  "version": "1.0.0",
+  "description": "Local agent that runs on your PC and executes whitelisted commands (open apps, open URLs) received from the JARVIS backend over a token-authenticated WebSocket.",
+  "main": "agent.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5"
+  }
+}
